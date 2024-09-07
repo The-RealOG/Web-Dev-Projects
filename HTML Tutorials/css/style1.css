@@ -1,0 +1,59 @@
+body {
+    padding: 10%;
+    font-size: 2rem;
+    
+}
+
+/* input, button {
+    font: inherit;
+} */
+
+p {
+    text-decoration: underline;  
+    text-transform: capitalize; 
+    text-transform: lowercase; 
+    text-decoration: none;
+    text-align: left;
+    text-align: justify;
+
+    text-indent: 2em;
+    line-height: 1.5;
+    letter-spacing: 1em;
+    letter-spacing: normal;
+    word-spacing: 1.5;
+    word-spacing: normal;
+    font-weight: 0.1;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* underline -> underlines specified text
+capitalize -> capitalizes the first letter of each word in the specified area
+none -> removes existing design that may have been added 
+text-indent -> introduces extrasapces at the beginning of the paragraph
+line-height -> increases the extra line spacing 
+letter-spacing -> increases the spacing between each character
+word-spacing -> increases the spacing between words
+font-weight -> adjsuts how bold the specified text is
+font-family -> Think of this as your Font style in MS
+*/
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:visited {
+    color: purple;
+
+}
+
+a:hover {
+    color: dodgerblue
+}
+a:active{
+    color: hsl(0, 100%, 50%);
+}
+
+/* a: is basically a pseudoclass */
+
